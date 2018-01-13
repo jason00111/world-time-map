@@ -1,0 +1,54 @@
+{
+  "name": "world-time-map",
+  "version": "1.0.0",
+  "description": "A web app which displays the current time anywhere on Earth",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "start": "node server.js",
+    "dev": "npm run build && nodemon server.js",
+    "build": "webpack",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason00111/world-time-map.git"
+  },
+  "author": "Jason Emberley",
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^1.1.1",
+    "express": "^4.16.2",
+    "material-ui": "^1.0.0-beta.27",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-redux": "^5.0.6",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.4",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "fetch-mock": "^6.0.0-beta.7",
+    "jest": "^22.0.5",
+    "nodemon": "^1.14.8",
+    "redux-mock-store": "^1.4.0",
+    "webpack": "^3.10.0"
+  },
+  "engines": {
+    "node": "8.9.4"
+  }
+}

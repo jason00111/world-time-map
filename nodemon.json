@@ -1,0 +1,10 @@
+{
+  "events": {
+    "restart": "webpack"
+  },
+  "ext": "js jsx html",
+  "ignore": [
+    "public/bundle.js",
+    "node_modules"
+  ]
+}

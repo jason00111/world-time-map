@@ -1,0 +1,30 @@
+{
+  location: {
+    lat,
+    lng
+  },
+  timeZone: {
+    isFetching,
+    dstOffset,
+    rawOffset,
+    timeZoneId,
+    timeZoneName,
+    status,
+    errorMessage
+  },
+  preferences: {
+    timeFormat: '12h' || '24h',
+    showSeconds
+  },
+  sun: {
+    isFetching,
+    sunrise: timestamp utc,
+    sunset: timestamp utc,
+    solarNoon: timestamp utc,
+    errorMessage
+  },
+  currentTime: {
+    timestamp: timestamp utc,
+    timerId
+  }
+}
