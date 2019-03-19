@@ -28,7 +28,7 @@ const loadingElement = (
 
 const withSetup = compose(
   withProps({
-    googleMapURL: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC4CQmJg5SiNkSRdXO8mEoFVa8wFOBIQTI',
+    googleMapURL: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDcC_Az3X5ekJPN8PxKCnfAqaNFcU-SNwE',
     loadingElement,
     containerElement: <Paper style={{ height: mapHeight, position: 'relative' }} />,
     mapElement: <div style={{ height: '100%' }} />
