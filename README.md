@@ -4,3 +4,4 @@ Clickable world map lets users see the local time anywhere in the world. Also sh
 
 Stack: React, Redux, Google Maps API, Sunrise-Sunset-API, Material-UI, Jest, Enzyme, Babel, Webpack.
 
+![](https://raw.githubusercontent.com/jason00111/world-time-map/master/screenshot.png)
